@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TreeAcademy</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- linking fontawesome -->
+    <link rel="stylesheet" href="./fontawesome-free-5.9.0-web/css/all.css">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- link style sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- google fonts comforta -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- starting jquery -->
+    <script>
+      $(document).ready(function() {
+        $(window).scroll(function() {
+          let scvalue = $(window).scrollTop();
+          if (scvalue > 500) {
+            $("nav").addClass("fixed-to");
+          } else {
+            $("nav").removeClass("fixed-to");
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo1">
+        <img src="./images/logo 1.png" alt="logo" srcset="" />
+      </div>
+      <ul class="nav-link">
+        <a href=""
+          >Home
+          <li></li
+        ></a>
+        <a href=""
+          >Services
+          <li></li
+        ></a>
+        <a href=""
+          >Post
+          <li></li
+        ></a>
+        <a href=""
+          >login
+          <li></li
+        ></a>
+        <a href=""
+          >About
+          <li></li
+        ></a>
+      </ul>
+      <ul class="handburger" id="handburger">
+        <li class="slice1"></li>
+        <li class="slice2"></li>
+        <li class="slice3"></li>
+      </ul>
+    </nav>
+    <!--     <hr> -->
+    <div class="slidenav" id="slidenav">
+      <nav>
+        <div class="logo2">
+          <img src="./images/logo 1.png" width="150px" alt="" />
+        </div>
+        <span>
+          <span class="slide_close" id="closebtn">
+            <img
+              class="closebtn"
+              src="./images/closebtn.png"
+              alt="cLose-button"
+              srcset=""
+            />
+          </span>
+        </span>
+        <ul>
+          <a href=""><li>Home</li></a>
+          <a href=""><li>Services</li></a>
+          <a href=""> <li>Post</li></a>
+          <a href=""><li>Login</li></a>
+          <a href=""><li>About</li></a>
+        </ul>
+        <div class="join-tag">
+          <div>Join Us:
+            <div>
+              <span><i class="fab fa-facebook-square fa-3x" style="font: size 3em; margin:10px;"></i></span>
+              <span><i class="fab fa-instagram fa-3x" style="font: size 3em; margin:10px;"></i></span>
+              <span><i class="fab fa-twitter fa-3x" style="font: size 3em; margin:10px;"></i></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="mainscreen">
+      <div class="illustrated">
+        <img src="./images/illustrated.png" alt="illustrated" />
+      </div>
+      <!-- <img class="mainbackground" src="./images/main page.svg" alt="backgound main"> -->
+      <div class="maintext">
+        <h3>Learn:</h3>
+        <p>Graphic Designing + Webdesigning + Development</p>
+      </div>
+    </div>
+    <!-- after  main design -->
+    <div class="service_ruler">
+      <h1 class="text-center text-dark mt-4">Services</h1>
+      <hr class="col-5 container ruler_serv" />
+    </div>
+    <div class="row container-fluid ml-sm-1">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div style="display: flex; justify-content: center;">
+          <img
+            src="./images/shield logo.png"
+            alt="sheild logo"
+            title="shield logo"
+            class="img-fluid"
+          />
+        </div>
+        <h4 class="text-center">Fully secure & update courses</h4>
+        <p style="text-align: justify;">
+          Fully secure and life time authorization for cources all bought
+          courses and many more...
+        </p>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div style="display: flex; justify-content: center;">
+          <img
+            src="./images/setting logo.png"
+            alt="setting logo"
+            title="setting logo"
+            class="img-fluid mb-1"
+          />
+        </div>
+        <h4 class="text-center">Customizable course + Testing system</h4>
+        <p style="text-align: justify;">
+          Fully secure and life time authorization for cources all bought
+          courses and many more...
+        </p>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div style="display: flex; justify-content: center;">
+          <img
+            src="./images/bolt logo.png"
+            alt="bolt logo"
+            title="bolt logo"
+            class="img-fluid"
+          />
+        </div>
+        <h4 class="text-center">Fast + Fully responsive</h4>
+        <p style="text-align: justify;">
+          Fully secure and life time authorization for cources all bought
+          courses and many more...
+        </p>
+      </div>
+    </div>
+    <div class="bg-light justify-align-content text-center mt-4">
+      <article class="text-dark mt-4">
+        <h1 class="pt-3">For Business</h1>
+        <p>Join our team get free access to our all courses</p>
+        <a href="" class="btn btn-outline-dark mb-4">Join us</a>
+      </article>
+    </div>
+    <!-- Courses Section of homepage -->
+    <div class="mt-4">
+      <div class="trending_course"><h1 class="text-center">Trending Courses</h1>
+        <hr class="col-5 container trending_ruler">
+      </div>
+    </div>
+    <!-- Cards -->
+    <div class="row container-fluid ml-1">
+      <div class="col-lg-4 col-md-4 col-12 mb-2">
+          <div class="card">
+              <img class="card-img-top"  height="250px" src="./images/Webdevelo[ment.png" alt="Webdevelopment">
+              <div class="card-body">
+                  <h4 class="card-title">Learn Webdesigning and development</h4>
+                  <p class="card-text">Learn HTML,CSS,PHP,AJAX and Bootrtrap and many more</p>
+                  <a href="#"class="btn btn-outline-success">ENROLL</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 mb-2">
+          <div class="card">
+              <img class="card-img-top" height="250px" src="./images/python datasc.jpeg" alt="python for datascience">
+              <div class="card-body">
+                  <h4 class="card-title">Learn Data Science with python</h4>
+                  <p class="card-text">Start learning python from scratch then use it for data science</p>
+                  <a href="#" class="btn btn-outline-success">ENROLL</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 mb-2">
+          <div class="card">
+              <img class="card-img-top" height="250px" src="./images/V1.jpg" alt="Python from scratch">
+              <div class="card-body">
+                  <h4 class="card-title">Python from Beginner to Advance</h4>
+                  <p class="card-text">In this course you start lerning python from very basics to next level</p>
+                  <a href="#" class="btn btn-outline-success">ENROLL</a>
+              </div>
+          </div>
+      </div>
+    </div>
+    <!-- Contact form and ending trunck -->
+    <div class="text-white contact_trunck">
+      <h1 class="text-center p-5">Contact Us</h1>
+    </div > 
+      <form action="" method="post" class="container col-6">
+        <div class="form-group">
+          <label for="">Username:</label>
+          <input type="text" name="" id="" class="form-control" placeholder="John Doe">
+        </div>
+        <div class="form-group">
+          <label for="">Email:</label>
+          <input type="email" name="" id="" class="form-control" placeholder="user@user.com">
+        </div>
+        <div class="form-group">
+          <label for="">Message:</label>
+          <textarea class="form-control" name="" id="" cols="30" rows="6" placeholder="type here...."></textarea>
+        </div>
+        <a href="#" class="btn btn-primary">Submit</a>
+      </form>
+      <!-- copywrite tag  -->
+    <div class="text-center bg-light text-dark mt-5">
+      <h4>Copyright &copy; of TreeAcademy</h4>
+
+    </div>
+    <!-- mian js -->
+    <script src="./main.js"></script>
+  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="./jquery.js"></script>
+</html>
